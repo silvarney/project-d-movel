@@ -85,5 +85,5 @@
     @apply text-center;
 }
 .contacts .contacts-content ul li a{
-    @apply cursor-pointer hover:text-blue-600;
+    @apply text-nowrap cursor-pointer hover:text-blue-600;
 }
