@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D-Móvel site</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="./img/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link href="./css/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="relative">
+      <div class="box-btn-flut">
+        <a class="btn-flutuante" href="#header">&#8679;</a>
+      </div>
+    </div>
+    <header>
+      <section class="box-header" id="header">
+        <div class="header-logo">
+          <img src="./img/logo-definida.png" alt="Logo D-móvel" />
+        </div>
+        <div class="header-menu">
+          <div class="header-menu-btn">
+            <button
+              data-collapse-toggle="navbar-default"
+              type="button"
+              aria-controls="navbar-default"
+              aria-expanded="false"
+              onclick="displayMenu()"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+          </div>
+          <ul class="hidden md:flex" id="menu">
+            <li>
+              <a href="#Inicio"> Início </a>
+            </li>
+            <li>
+              <a href="#Funcionalidades"> Funcionalidades </a>
+            </li>
+            <li>
+              <a href="#Parceiros"> Parceiros </a>
+            </li>
+            <li>
+              <a href="#Contatos"> Contatos </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="box-content">
+        <div class="top-content">
+          <h1 class="title">Navegar é preciso!</h1>
+          <p class="content">
+            Totalmente gratuito e voltado à PcD, o
+            <span class="contrast">DMOVEL</span>
+            viabiliza a coleta e compartilhamento ágil de informações sobre
+            acessibilidade em espaços públicos e qualidade de serviços nas áreas
+            de saúde, educação, lazer e cultura.
+          </p>
+        </div>
+        <div class="w-auto flex item-center justify-center p-4">
+          <img
+            class="rounded-3xl border-2 border-gray-500 max-w-48"
+            src="./img/home.png"
+          />
+        </div>
+      </section>
+      <div class="title-free" id="Funcionalidades">
+        Funcionalidades do&nbsp;<span class="contrast">DMOVEL</span>
+      </div>
+      <section class="box-content">
+        <div class="w-auto flex item-center justify-center p-4">
+          <img
+            class="rounded-3xl border-2 border-gray-500 max-w-48"
+            src="./img/home.png"
+          />
+        </div>
+        <div class="top-content">
+          <h1 class="title">Quer ir a um local?</h1>
+          <p class="content">
+            O <span class="contrast">DMOVEL</span>
+            contém uma lista de locais com imagem, resumo e avaliações sobre
+            acessibilidade.
+          </p>
+        </div>
+      </section>
+      <section class="box-content">
+        <div class="w-auto flex item-center justify-center p-4">
+          <img
+            class="rounded-3xl border-2 border-gray-500 max-w-48"
+            src="./img/adicionar-local.png"
+          />
+        </div>
+        <div class="top-content">
+          <h1 class="title">
+            Conheceu um lugar que não está cadastrado no DMOVEL?
+          </h1>
+          <p class="content">
+            Compartilhe esse momento. Com o app
+            <span class="contrast">DMOVEL</span>, você pode cadastrar e avaliar
+            um novo local, adicionando uma imagem, nome, categoria (dividido
+            entre Lazer, Saúde, Educação, Governo) e uma breve descrição.
+          </p>
+        </div>
+      </section>
+      <section class="box-content">
+        <div class="w-auto flex item-center justify-center p-4">
+          <img
+            class="rounded-3xl border-2 border-gray-500 max-w-48"
+            src="./img/mapa.png"
+          />
+        </div>
+        <div class="top-content">
+          <h1 class="title">Quer conhecer alguma região?</h1>
+          <p class="content">
+            Pelo <span class="contrast">DMOVEL</span>, , você pode navegar
+            através do mapa da região, onde os locais cadastrados podem ser
+            visualizados de forma interativa, com a respectiva posição
+            geográfica.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer" id="Parceiros">
+        <h1>Parceiros</h1>
+        <div class="list-parceiros">
+          <ul>
+            <li>
+              <img src="./img/UFPA.png" alt="UFPA" />
+            </li>
+            <li>
+              <img src="./img/LaPS.png" alt="LaPS" />
+            </li>
+            <li>
+              <img src="./img/Lamic.png" alt="Lamic" />
+            </li>
+            <li>
+              <img
+                src="./img/led.png"
+                alt="Laboratório da Ecologia de Desenvolvimento"
+              />
+            </li>
+            <li>
+              <img src="./img/APAE.png" alt="APAE" />
+            </li>
+            <li>
+              <img src="./img/abrigo.png" alt="Abrigo Especial Calabriano" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contacts" id="Contatos">
+        <h1>Contatos</h1>
+        <div class="contacts-content">
+          <div class="content-adress">
+            <h2 class="title">Endereço</h2>
+            <ul>
+              <li>LaPS - Laboratório de Processamento de Sinais</li>
+              <li>Av. Augusto Corrêa, 1.</li>
+              <li>Altos do anexo do LEEC, sala 31</li>
+              <li>CEP 66075-110, Belém-Pará-Brasil</li>
+            </ul>
+          </div>
+          <div class="content-email">
+            <h2 class="title">E-mail</h2>
+            <ul>
+              <li>
+                <a href="mailto:dmovel@ufpa.br?subject='Estava no site do D-Móvel e gostaria de saber mais sobre o projeto.'">dmovel@ufpa.br</a>                
+              </li>
+            </ul>
+            <p></p>
+          </div>
+          <div class="content-phone">
+            <h2 class="title">Telefone</h2>
+            <ul>
+              <li><a href="tel:+559132017674">(91)3201-7674</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+  <script>
+    function displayMenu(){
+      console.log('clicou');
+      const element = document.querySelector('#menu');
+      element.classList.toggle('hidden');
+      element.classList.toggle('flex');  
+    }
+
+  </script>
+</html>

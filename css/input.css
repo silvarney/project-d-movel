@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box-header{
+    @apply w-full flex flex-col md:flex-row items-center bg-gray-200 mb-4;
+} 
+.box-header .header-logo{ 
+    @apply w-1/5 p-2 flex justify-center;
+}
+.box-header .header-logo img{ 
+    @apply max-w-40 max-h-40 md:max-w-20 md:max-h-20;
+}
+.box-header .header-menu{ 
+    @apply w-full md:w-4/5 p-2 flex flex-col md:flex-row justify-center;
+}
+.box-header .header-menu .header-menu-btn{ 
+    @apply w-full flex justify-end md:hidden;
+}
+.box-header .header-menu .header-menu-btn button{ 
+    @apply inline-flex items-center w-12 h-12 justify-center text-sm text-gray-500 border-2 border-gray-300 rounded md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200;
+}
+.box-header .header-menu ul{ 
+    @apply w-full flex-col md:flex-row justify-end pr-12;
+}
+.box-header .header-menu ul li{ 
+    @apply p-2 md:p-4 text-lg font-semibold hover:text-blue-800;
+}
+.box-btn-flut{
+    @apply fixed bottom-4 right-2 md:bottom-4 md:right-4;
+}
+.btn-flutuante{
+    @apply flex items-center justify-center bg-blue-600 text-white w-10 h-10 p-2 text-xl rounded-full;
+}
+.box-content{
+    @apply w-full flex flex-col md:flex-row items-center justify-center md:gap-8 my-16;
+}
+.box-content .top-content{
+    @apply w-full md:w-1/2 flex flex-col p-4;
+}
+.box-content .top-content .title{
+    @apply text-center text-[6vmin] md:text-[4vmin] font-bold p-4;
+}
+.box-content .top-content .content{
+    @apply text-justify text-[3vmin] md:text-[2vmin] p-4;
+}
+.contrast{
+    @apply text-blue-600 font-semibold;
+}
+.title-free{
+    @apply w-full flex text-[6vmin] md:text-[4vmin] justify-center my-8 font-bold;
+}
+.footer{
+    @apply w-full items-center bg-gray-200 py-8;
+}
+.footer h1{
+    @apply w-full text-center text-3xl font-semibold py-4;
+}
+.footer .list-parceiros{
+    @apply w-full flex justify-center;
+}
+.footer .list-parceiros ul{
+    @apply w-full flex flex-wrap md:flex-row gap-2 md:gap-10 justify-center;
+}
+.footer .list-parceiros ul li{
+    @apply max-w-40 max-h-40 flex items-center rounded-lg md:rounded-full p-8 bg-white;
+}
+.contacts{
+    @apply w-full p-4;
+}
+.contacts h1{
+    @apply w-full text-center text-3xl font-semibold py-4;
+}
+
+.contacts .contacts-content{
+    @apply w-full flex flex-wrap md:flex-row justify-center md:gap-16;
+}
+.contacts .contacts-content div{
+    @apply p-4;
+}
+.contacts .contacts-content .title{
+    @apply w-full text-lg text-center font-semibold;
+}
+.contacts .contacts-content ul li{
+    @apply text-center;
+}
+.contacts .contacts-content ul li a{
+    @apply cursor-pointer hover:text-blue-600;
+}

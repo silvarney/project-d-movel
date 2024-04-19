@@ -1,0 +1,192 @@
+body {
+    display: grid;
+    font-family: system-ui;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.back {
+    text-decoration: none;
+    color: #888888;
+}
+
+.center {
+    text-align: center;
+    padding-top: 1em;
+    margin: 0;
+}
+
+.content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.contrast {
+    color: #4472c4;
+    font-weight: 600;
+}
+
+.endereço {
+    width: 35%;
+}
+
+.e-mail {
+    width: 30%;
+}
+
+.footer {
+    background-color: #a8a8a8;
+}
+
+.img-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.img-block img {
+    width: 12em;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 1.875em;
+}
+
+.info {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    color: #2c4964;
+}
+
+.info p {
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 1.5em;
+}
+
+.layer {
+    padding-top: 3em;
+    padding-bottom: 6em;
+    height: auto;
+    display: flex;
+}
+
+.left {
+    float: left;
+    text-align: left;
+}
+
+.logo {
+    float: left;
+    position: relative;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    padding-left: 0.5em;
+}
+
+.logo img {
+    max-height: 5.625em;
+    max-width: 5.625em;
+    height: auto;
+    width: auto;
+}
+
+.logos {
+    background-color: #ffffff;
+    border-radius: 50%;
+    height: 12.5em;
+    width: 12.5em;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+}
+
+.logos img {
+    display: block;
+    max-width: 9.375em;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-menu {
+    width: 100%;
+    background: #a8a8a8;
+    height: 6.25em;
+}
+
+.nav-bar {
+    width: 70%;
+    float: right;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.nav-bar ul {
+    margin: 0;
+    padding-inline-start: 0;
+    float: right;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-inline: 0.625em;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.25em;
+    color: #202020;
+}
+
+.parceiros ul {
+    text-align: center;
+    padding: 1em;
+}
+
+.parceiros ul li {
+    display: inline-block;
+    margin-inline: 1.25em;
+}
+
+.right {
+    float: right;
+    text-align: right;
+}
+
+.telefone {
+    width: 30%;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.text-block p,
+b {
+    font-size: 1.5em;
+}
+
+.text-block h1 {
+    font-size: 2.5em;
+}
